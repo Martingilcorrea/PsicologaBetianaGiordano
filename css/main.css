@@ -1,0 +1,119 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Genericos */
+
+body{
+    background-color: aqua;
+    
+}
+
+/* Estilos de Home */
+
+header{
+    padding: 20px;
+    background-color: rgb(29, 105, 105);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;;
+
+}
+footer{
+    background-color: rgb(29, 105, 105);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+    text-align: center;
+}
+
+header img{
+    width: 20%;
+}
+
+
+
+header nav ul{
+    list-style: none;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:black
+}
+
+/* Estilos de main */
+
+main{
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    text-align: center;
+}
+
+main h1{
+    margin-bottom: 20px;
+}
+
+main p{
+    margin-bottom: 20px;
+   
+}
+
+main .contenedorUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+ 
+main .contenedorDos img{
+    width: 100%;
+}
+
+main .contenedorUno .boton{
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 4px black;
+}
+
+}
+
+/* estilo de footer */
+
+footer{
+    background-color: rgb(29, 105, 105);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+    text-align: center;
+
+    
+
+}
+    
+  
